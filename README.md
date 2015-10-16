@@ -118,3 +118,26 @@ writing non-programmers pseudo-programs. Why bother?
 Code looks messy, uses smart hacks and then it is rendered in Angular. Sigh.
 
 Skipped the rest. 0/10
+
+## CRDT: Datatype for the Apocalypse by Alexander Songe
+
+http://confreaks.tv/videos/elixirconf2015-crdt-datatype-for-the-apocalypse
+
+Distributed versioning of data, used in Riak.
+
+Usable when you are creating local applications that rarely sync or
+have to handle very unstable connections.
+
+Seems complicated. ?/10
+
+## Elixir Voice Survey Application by Stephen Pallen
+
+http://confreaks.tv/videos/elixirconf2015-an-elixir-voice-survey-application
+
+ExAdmin creates basic CRUD interface for your model. Very similar to CakePHP
+baked forms.
+
+SpeakEx handles SIP and voice generation. How much work would it take to add
+Ivona bindings?
+
+Interesting, if you want to build phone tech support. 5/10
