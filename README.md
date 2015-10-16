@@ -57,12 +57,64 @@ http://confreaks.tv/videos/elixirconf2015-confident-elixir
 
 Story structure:
 - gather data
+  - enforce data types with guards
 - do work
+  - module logic should be in module, not functions using it
 - return values
+  - returned value should be meaningful
 - handle errors
 
 GildedRose example of code to refactor: https://github.com/NotMyself/GildedRose
 
 Pattern-matching usage basics. Pretty good.
 
+I have expected more about error handling, but I got only:
+"Use supervisors, unless you want to return error to user."
+
 Pretty good basics. 7/10
+
+## Release Management with Exrm and Conform by Paul Schoenfelder  [34 min]
+
+http://confreaks.tv/videos/elixirconf2015-release-management-with-exrm-and-conform
+
+How to release your code:
+- without releases
+  - can use sftp or git
+  - build is slow
+  - no upgrade / downgrade
+  - unstable
+  - usable, but not best
+- with release
+  - self contained
+  - easy to deploy
+  - easy to reproduce - similar to Docker idea
+
+Live release upgrade of phoenix chat demo.
+
+Warning: configuration is evaluated during build, so you can't use System.env,
+nor change them in production.
+
+Creating new release:
+- either have config stuff (ie. passwords) on dev machine
+- or build release on CI
+- or use Conform to read from production files.
+
+Do you run integration tests from release? Docker would say `yes`.
+
+Conform part is rather boring and heavy handed.
+
+DevOps stuff, interesting. 7/10
+
+## Building a visual programming tool using Elixir by Josh Adams [29 min]
+
+http://confreaks.tv/videos/elixirconf2015-building-a-visual-programming-tool-using-elixir
+
+Creating business rule engine.
+
+Visually creating big `if` block in Bootstrap? I don't like it. Creating
+"programming aids" for non-programmers always ends with programmers
+writing non-programmers pseudo-programs. Why bother?
+
+Code looks messy, uses smart hacks and then it is rendered in Angular. Sigh.
+
+Skipped the rest. 0/10
