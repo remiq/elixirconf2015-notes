@@ -141,3 +141,11 @@ SpeakEx handles SIP and voice generation. How much work would it take to add
 Ivona bindings?
 
 Interesting, if you want to build phone tech support. 5/10
+
+## Taking Phoenix beyond the browser with iOS and Apple Watch by Justin Schneck [30 min]
+
+http://confreaks.tv/videos/elixirconf2015-taking-phoenix-beyond-the-browser-with-ios-and-apple-watch
+
+Embedded hardware + Elixir sounds interesting, but why Phoenix and channels?
+
+Interesting, but not very practical. 7/10
